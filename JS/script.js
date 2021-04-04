@@ -8,6 +8,8 @@ console.log("Welcome to our randomly generated horoscope messages!");
 console.log("------------------------------------------");
 console.log("Here is a randomly generated message about your future:")
 
+
+
 let horoscopeSign = ["Aquarius, ", "Pisces, ", "Aries, ", "Taurus, ", "Gemini, ", "Cancer, ", "Leo, ", "Virgo, ", "Libra, " , "Scorpio, ", "Sagitarius, ", "Capricorn, "];
 let timeStamp = ["because today ", "because this month ", "because this week ", "because this year "];
 let beginning = ["It's the most wonderful time for you, ", "Bad news, ", "This is a warning, ", "You better get ready, ", "I hope your calendar is clear, "]

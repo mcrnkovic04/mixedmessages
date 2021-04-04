@@ -15,9 +15,39 @@ and open the template in the editor.
         <script type="text/javascript" src=JS/script.js></script>
     </head>
 
-    <body>
-<header>
+    <style>
+        .bar{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                max-width: 100%;
+            }
+            .headAlignment {
+                grid-column: 1 / span 3;
+                grid-row: 1;
+                text-align: center;
+            }
+
+
+            .gridAlignment {
+                grid-column: 2 / span 2;
+                grid-row:2;
+            }
+
+            .footerAlignment {
+                grid-column: 1 / span 3;
+                grid-row:3;
+                text-align: center;
+            }
+    </style>
+
+    <body class="bar">
+<header class="headAlignment">
     <h1>Horoscope message generator</h1>
 </header>
-
+    <section id = "content" class = "gridAlignment">
+        <script>
+            displayMessage();
+        </script>
+    </section>
     </body>
+</html>
