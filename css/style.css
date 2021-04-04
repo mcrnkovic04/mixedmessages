@@ -1,0 +1,26 @@
+body{
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 100%;
+
+}
+header, h1 {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+    text-align: center;
+    background-color: #FF1801;
+}
+
+
+div {
+    grid-column: 1 / span 1;
+    grid-row:2;
+    text-align: center;
+    color: #000000;
+}
+
+footer {
+    text-align: center;
+    background-color: #FF1801;
+
+}

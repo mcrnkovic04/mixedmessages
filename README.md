@@ -13,12 +13,11 @@ This program is a part of Codecademy's Full-Stack Engineer career path. This is 
 The project was created using:
 * Visual Studio Code version: 1.52.1
 * JavaScript/Node.JS version: 14.16.0
+* HTML5
+* CSS3
 
 ## Setup
-To run this project, download the folder, open the terminal, navigate to the designated folder and run it using node:
+To run this project, simply run the index.html page after downloading everything.
 
-```
-cd ../generator
-node script.js
-```
+
 
