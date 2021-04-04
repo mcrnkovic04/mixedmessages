@@ -2,9 +2,9 @@
 A simple horoscope message generator created using JavaScript
 
 ## Table of contents
-*[General info](#general-info)
-*[Technologies](#technologies)
-*[Setup](#setup)
++[General info](#general-info)
++[Technologies](#technologies)
++[Setup](#setup)
 
 ## General info
 This program is a part of Codecademy's Full-Stack Engineer career path. This is my first portfolio project.
